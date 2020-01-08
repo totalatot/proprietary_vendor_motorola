@@ -80,6 +80,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
     vendor/motorola/shamu/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/motorola/shamu/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libfilterframework_jni.so:system/app/GoogleCamera/lib/arm/libfilterframework_jni.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libgcam_swig_jni.so:system/app/GoogleCamera/lib/arm/libgcam_swig_jni.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libjni_imgutil.so:system/app/GoogleCamera/lib/arm/libjni_imgutil.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libjni_yuvutil.so:system/app/GoogleCamera/lib/arm/libjni_yuvutil.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libnativehelper_compat_libc++.so:system/app/GoogleCamera/lib/arm/libnativehelper_compat_libc++.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/librsjni.so:system/app/GoogleCamera/lib/arm/librsjni.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libvision_face_jni.so:system/app/GoogleCamera/lib/arm/libvision_face_jni.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libgcam.so:system/app/GoogleCamera/lib/arm/libgcam.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libjni_faceutil.so:system/app/GoogleCamera/lib/arm/libjni_faceutil.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libjni_jpegutil.so:system/app/GoogleCamera/lib/arm/libjni_jpegutil.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/liblightcycle.so:system/app/GoogleCamera/lib/arm/liblightcycle.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/librefocus.so:system/app/GoogleCamera/lib/arm/librefocus.so \
+    vendor/motorola/shamu/proprietary/app/GoogleCamera/lib/arm/libsmartburst-jni.so:system/app/GoogleCamera/lib/arm/ibsmartburst-jni.so \
     vendor/motorola/shamu/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/shamu/proprietary/vendor/firmware/VRGain.bin:system/vendor/firmware/VRGain.bin \
     vendor/motorola/shamu/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
@@ -340,6 +353,7 @@ PRODUCT_PACKAGES += \
     DMConfigUpdate \
     HiddenMenu \
     TimeService \
+    GoogleCamera \
     VZWAPNLib \
     AppDirectedSMSProxy \
     BuaContactAdapter \
